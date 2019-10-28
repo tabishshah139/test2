@@ -9,13 +9,16 @@ from discord.utils import get
 from discord import Game
 import os
 
+from discord import Activity, ActivityType
+
+
 client = commands.Bot(command_prefix='+')
 #client = discord.Client()
 Clientdiscord = discord.Client()
 
 
 #create an arraylist containing phrases you want your bot to switch through.
-status = cycle(['+help', '+stock', '+spotify', '+origin', '+steam', '+hulu', '+fortnite', '+minecraft', '+uplay'])
+status = cycle(['+help', '+stock', '+spotify', '+origin', '+steam', '+hulu', '+fortnite', '+minecraft', '+uplay', 'wwe', 'pornhub', 'mail'])
 
 client.remove_command('help')
 
@@ -140,10 +143,7 @@ async def on_ready():
 
 @tasks.loop(seconds=5)
 async def change_status():
-    await client.change_presence(activity=Activity(name=f"{len(client.guilds)} servers!| !help | Members ", 
+        await client.change_presence(activity=Activity(name=f"{len(client.guilds)} servers!| +help | Members ", 
                                                 type=ActivityType.watching))
-    
-    
-    
 
 client.run(os.getenv('BOT_TOKEN'))
