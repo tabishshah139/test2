@@ -63,8 +63,9 @@ async def on_message(message):
         await message.author.send(msg + (random.choice(randomlist)))
 
     if message.content.startswith('+stock'):
-        await message.author.send("Origin: 1000 .Hulu: 1000 .Spotify: 1000 .Fortnite: 1000 .Nordvpn: 1000 .Crunchyroll: 1000 .Uplay: 600 .Minecraft: 120")
-        await message.author.send("Available Stocks")
+        await message.author.send("Origin: 670 .Hulu: 421 .Spotify: 621 .Fortnite: 1000 .Nordvpn: 444 .Crunchyroll: 272 .Uplay: 300 .Minecraft: 441")
+        await message.author.send("Available Stocks 26 October")
+        await message.author.send(" Official Server https://discord.gg/44PFcRr ")
 
     if message.content.startswith('+nordvpn'):
         randomlist = ['abbas35@live.com:abbasdf123','cbilzx@tom.com:tmen0201','chad_greenaway@hotmail.com:mainas123','cherry.cleary@gmail.com:dannie1023','cole070500@gmail.com:trooper20','colmasimone@gmail.com:left4dead2','colten-james@hotmail.com:guitarhero15','craig.mogi@gmail.com:Mustang63','damien2007@MSN.com:damianos2007','dgoza16@gmail.com:Danthe1man','diegosaravia65@gmail.com:notedigo','flytouk@gmail.com:19831017','gichuhi@hotmail.com:sylvia323','jessie.ceyssens@telenet.be:yorkoo101171','king_aafuw@yahoo.com:aafuw123','lewis.w.94@hotmail.co.uk:arsenal5','mario.maldonado9@gmail.com:PIZZA123','max-tutzschke@t-online.de:lenny001','mdjones1776@yahoo.com:mdj1776a','mr.fnaf.mc@gmail.com:XPXP1234','mr84xx@gmail.com:insanity1988','orangefingerz1@gmail.com:Cranstoneast1','paterson.rhys@gmail.com:Mithrandir311','pureobbyz@hotmail.com:tootcat2','raamiz2k1@gmail.com:raamiz2001','rdaigle404@gmail.com:47855web','rio_a1988@aol.com:alanis88','ritchea95@yahoo.com:Jakobritchea95','rmorlarived@yahoo.es:Telefonica1','robbie68@hotmail.com:bonethugs','ross2g1@gmail.com:walnut82','salinas.jose80@hotmail.com:Awesome1','slebodnik.michal151@gmail.com:jamnik151','smart.abraham@gmail.com:doombringer','spence77@live.co.uk:Saskia55','syqin86@gmail.com:midnight1223','teflonaudi@gmail.com:Thesoup1','timothyvanarem@gmail.com:milodehond','zorgish@hotmail.com:Tissekatt1']
