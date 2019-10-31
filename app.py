@@ -70,7 +70,7 @@ async def on_message(message):
 
 
     if message.content.startswith('+minecraft'):
-        randomlist = ['']
+        randomlist = ['Stephen_rolon@yahoo.com:Z3k3Fr3@k','adalberto1999@gmail.com:BIANCA17','adam.roy10@gmail.com:dragracer123','amilcargome@gmail.com:bakugan99','austinhall8653@yahoo.com:catdog11','austinjohns974@gmail.com:popdog64','balicandri@gmail.com:aceofclubs2','beckygulikers@yahoo.com:Jason1313','bobbobtamer@gmail.com:William02','doughtychristopher1@yahoo.com:frosty101','henryrawlings1@gmail.com:Guitarman1','jamareus77@gmail.com:Pewdiepie1']
         await message.author.send("Join Server To Keep Updated About Bot")
         await message.author.send(" Official Server https://discord.gg/EhSUF55 ")
         msg = ' ' + author + '. Mine Account : '
