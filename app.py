@@ -65,7 +65,7 @@ async def on_message(message):
 
     if message.content.startswith('+stock'):
         await message.author.send("```Origin: 670 .Hulu: 421 .Spotify: 621 .Fortnite: 1000 .Nordvpn: 444 .Crunchyroll: 272 .Uplay: 300 .Minecraft: 441```")
-        await message.author.send("```Available Stocks 26 October```")
+        await message.author.send("```Available Stocks 17 November```")
         await message.author.send(" Official Server https://discord.gg/zGTR2Ra ")
 
     if message.content.startswith('+mailaccess'):
