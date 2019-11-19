@@ -44,7 +44,7 @@ async def on_message(message):
     if message.content.startswith('+help'):
         await message.author.send("Introducing TABISH SHAH BOT")
         await message.author.send("You Can Invite This Bot To Your Server +invite")
-        await message.author.send("Official Server https://discord.gg/ZwaYryZ")
+        await message.author.send("Official Server https://discord.gg/zGTR2Ra")
         await message.author.send("You Can Check Available Stock In BOT +stock")
 
 
@@ -58,14 +58,14 @@ async def on_message(message):
         await message.author.send(" :two: ( https://up-to-down.net/41622/Spotify2P ) 200x Spotify Accounts list 2.")
         await message.author.send(":three: ( https://up-to-down.net/41622/spotify3 ) 200x Spotify Accounts list 3.")
         await message.author.send(":four: ( https://up-to-down.net/41622/spotify4 ) 128x Spotify Accounts list 4")
-        await message.author.send(" Official Server https://discord.gg/ZwaYryZ ")
+        await message.author.send(" Official Server https://discord.gg/zGTR2Ra ")
         msg = ' ' + author + '. Spotify Accounts : '
         await message.author.send(msg + (random.choice(randomlist)))
 
     if message.content.startswith('+stock'):
         await message.author.send("```Origin: 670 .Hulu: 421 .Spotify: 621 .Fortnite: 1000 .Nordvpn: 444 .Crunchyroll: 272 .Uplay: 300 .Minecraft: 441```")
         await message.author.send("```Available Stocks 26 October```")
-        await message.author.send(" Official Server https://discord.gg/ZwaYryZ ")
+        await message.author.send(" Official Server https://discord.gg/zGTR2Ra ")
 
     if message.content.startswith('+mailaccess'):
         randomlist = ['   ']
@@ -97,7 +97,7 @@ async def on_message(message):
     if message.content.startswith('+hulu'):
         randomlist = ['']
         await message.author.send("Join Server To Keep Updated About Bot")
-        await message.author.send(" Official Server https://discord.gg/ZwaYryZ ")
+        await message.author.send(" Official Server https://discord.gg/zGTR2Ra ")
         msg = ' ' + author + '. Hulu Account : '
         await message.author.send(msg + (random.choice(randomlist)))
 
@@ -134,6 +134,7 @@ async def on_message(message):
         await message.author.send("Watch Advertisement and Recieve Alot Accounts Thank You.")
         await message.author.send(":one: ( https://link-to.net/41622/crunchy1 ). 60x Crunchyroll Accounts list 1")
         await message.author.send(":two: ( https://link-to.net/41622/crunch2 ). 67x Crunchyroll Accounts list 2")
+        await message.author.send(" Join Tabish Gen Official CM** https://discord.gg/zGTR2Ra ") 
         msg = ' ' + author + '. Crunchyroll Accounts : '
         await message.author.send(msg + (random.choice(randomlist)))
 
@@ -148,7 +149,7 @@ async def on_message(message):
         await message.author.send(":three: ( https://link-to.net/41622/netfli3 ) 200x Netflix Accounts list 3.")
         await message.author.send(":four: ( https://link-to.net/41622/netfliee4 ) 260x Netflix Accounts list 4.")
         await message.author.send(":five: ( https://link-to.net/41622/nefliexx5 ) 303x Netflix Accounts list 5")
-        await message.author.send(" Official Server https://discord.gg/ZwaYryZ ")
+        await message.author.send(" Official Server https://discord.gg/zGTR2Ra ")
         msg = ' ' + author + '. Netflix Accounts : '
         await message.author.send(msg + (random.choice(randomlist)))
 
