@@ -46,6 +46,7 @@ async def on_message(message):
         await message.author.send("You Can Invite This Bot To Your Server +invite")
         await message.author.send("Official Server https://discord.gg/zGTR2Ra")
         await message.author.send("You Can Check Available Stock In BOT +stock")
+        message.channel.send(`Invite link of KGEN has sent to your **DMs** :white_check_mark:`)
 
 
 
