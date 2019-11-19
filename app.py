@@ -93,7 +93,7 @@ async def on_message(message):
         await message.author.send(msg + (random.choice(randomlist)))
 
     if message.content.startswith('+origin'):
-        randomlist = ['    :two: ( https://link-to.net/41622/origi2 ) 60x Origin Accounts list 2']
+        randomlist = ['  ']
         await message.author.send("Note: We have added Little Advertisement.")
         await message.author.send(" You Can Get more more than 50 Accounts by seeing advertisement 1 time. ")
         await message.author.send("Watch Advertisement and Recieve Alot Accounts Thank You.")
