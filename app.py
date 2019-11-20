@@ -50,11 +50,6 @@ async def on_message(message):
         await message.author.send("You Can Check Available Stock In BOT +stock")
 
 
-        
- 
-
-
-
     if message.content.startswith('+spotify'):
         randomlist = ['     ']
         await message.author.send("Note: We have added Little Advertisement.")       
@@ -123,9 +118,6 @@ async def on_message(message):
         await message.author.send(" Join Tabish Gen Official CM** https://discord.gg/SzffkfK ")        
         msg = ' ' + author + '. Origin Accounts : '
         await message.author.send(msg + (random.choice(randomlist)))
-        
-
-
 
 
     if message.content.startswith('+nitro'):
@@ -165,13 +157,9 @@ async def on_message(message):
         await message.author.send(" Official Server https://discord.gg/SzffkfK ")
         msg = ' ' + author + '. Netflix Accounts : '
         await message.author.send(msg + (random.choice(randomlist)))
-        
+                                  
 
-        
-
-
-
-
+                                  
 @client.event
 async def on_ready():
     print('Logged in as')
