@@ -47,9 +47,8 @@ async def on_message(message):
         await message.author.send("You Can Invite This Bot To Your Server +invite")
         await message.author.send("Official Server https://discord.gg/SzffkfK")
         await message.author.send("You Can Check Available Stock In BOT +stock")
-        await message.channel.send({embed: {
-        color: 3066993,
-        description: "help sended in dm **DMs**! :white_check_mark:"
+        await message.channel.send("```help sended in dm **DMs**! :white_check_mark:```")
+
         
  
 
