@@ -42,13 +42,12 @@ async def on_message(message):
         await message.author.send("Click To Invite Bot In Your Server https://discordapp.com/api/oauth2/authorize?client_id=619923933109420097&permissions=0&scope=bot")
 
     if message.content.startswith('+help'):
-        {
-        message.author.send("Help Sended In DM");
-        }
+
         await message.author.send("Introducing TABISH SHAH BOT")
         await message.author.send("You Can Invite This Bot To Your Server +invite")
         await message.author.send("Official Server https://discord.gg/SzffkfK")
         await message.author.send("You Can Check Available Stock In BOT +stock")
+        await message.channel.send("Help Sended In DM")
  
 
 
