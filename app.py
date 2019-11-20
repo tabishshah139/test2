@@ -123,6 +123,17 @@ async def on_message(message):
         await message.author.send(" Join Tabish Gen Official CM** https://discord.gg/SzffkfK ")        
         msg = ' ' + author + '. Origin Accounts : '
         await message.author.send(msg + (random.choice(randomlist)))
+        
+    if message.content.startswith('+fortnite'):
+        randomlist = ['  ']
+        await message.author.send("Note: We have added Little Advertisement.")
+        await message.author.send(" You Can Get more more than 50 Accounts by seeing advertisement 1 time. ")
+        await message.author.send("Watch Advertisement and Recieve Alot Accounts Thank You.")
+        await message.author.send(":one: ( https://up-to-down.net/41622/fortn1 ) 400x Fortnite Accounts list 1. ")   
+        await message.author.send(" :two: ( https://up-to-down.net/41622/fortnit2 ) 399x Fortnite Accounts list 2")
+        await message.author.send(" Join Tabish Gen Official CM** https://discord.gg/SzffkfK ")        
+        msg = ' ' + author + '. Fortnite Accounts : '
+        await message.author.send(msg + (random.choice(randomlist))) 
 
 
 
