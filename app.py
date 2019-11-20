@@ -43,7 +43,6 @@ async def on_message(message):
         
 
     if message.content.startswith('+help'):
-
         await message.author.send("Introducing TABISH SHAH BOT")
         await message.author.send("You Can Invite This Bot To Your Server +invite")
         await message.author.send("Official Server https://discord.gg/SzffkfK")
