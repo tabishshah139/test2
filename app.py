@@ -163,8 +163,7 @@ async def on_message(message):
 
     if message.content.startswith('+netflix'):
         randomlist = ['      ']
-        await message.author.send("Note: We have added Little Advertisement.")
-        
+        await message.author.send("Note: We have added Little Advertisement."
         await message.author.send("You Can Get more than 50 Accounts by seeing advertisement 1 time.")
         await message.author.send(" Watch Advertisement and Recieve Alot Accounts Thank You.")
         await message.author.send(":one: ( https://link-to.net/41622/netflixe ) 200x Netflix Accounts list 1.")
@@ -176,10 +175,9 @@ async def on_message(message):
         msg = ' ' + author + '. Netflix Accounts : '
         await message.author.send(msg + (random.choice(randomlist)))
         
-if message.content.startswith('+nordvpn'):
+    if message.content.startswith('+nordvpn'):
         randomlist = ['   ']
         await message.author.send("Note: We have added Little Advertisement.")
-        
         await message.author.send("You Can Get more than 50 Accounts by seeing advertisement 1 time.")
         await message.author.send(" Watch Advertisement and Recieve Alot Accounts Thank You.")
         await message.author.send(":one: ( https://link-to.net/41622/nord ) 150x NordVPN Accounts list 1.")
