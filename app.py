@@ -75,9 +75,11 @@ async def on_ready():
     print('------')
     change_status.start()
 
+    
+
+    
 @tasks.loop(seconds=5)
 async def change_status():
         await client.change_presence(activity=Activity(name=f"{len(client.guilds)} servers!| Members ", 
                                                 type=ActivityType.watching))
-
 client.run(os.getenv('BOT_TOKEN'))
